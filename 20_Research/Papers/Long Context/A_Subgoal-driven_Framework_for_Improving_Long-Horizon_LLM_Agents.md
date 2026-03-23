@@ -57,7 +57,7 @@ tags:
 
 ### 贡献一：基于子目标分解的在线规划框架
 
-![子目标分解框架示意图](images/2603.19685_1.png)
+![子目标分解框架示意图](images/SGPattern_page1.png)
 
 该框架利用专有模型（如 Gemini）进行在线规划，核心思路是将复杂的长时间跨度任务分解为一系列可管理的子目标：
 
@@ -70,7 +70,7 @@ tags:
 
 ### 贡献二：MiRA（Milestoning your Reinforcement Learning Enhanced Agent）
 
-![MiRA 训练框架](images/2603.19685_2.png)
+![MiRA 训练框架](images/MiRA_workflow_page1.png)
 
 MiRA 是一个创新的 RL 训练框架，其核心设计理念是用密集的里程碑奖励信号替代传统的稀疏终端奖励：
 
@@ -104,7 +104,7 @@ MiRA 的里程碑机制与子目标分解框架形成互补：
 
 ### 关键发现
 
-![实验结果对比](images/2603.19685_3.png)
+![实验结果对比](images/SR.png)
 
 1. **子目标规划的效果**：在线子目标分解机制在 Gemini 等专有模型上带来约 **10% 的绝对成功率提升**
 2. **MiRA 的显著提升**：将开源 Gemma3-12B 的成功率从 **6.4% 提升至 43.0%**，提升幅度高达 **36.6 个百分点**

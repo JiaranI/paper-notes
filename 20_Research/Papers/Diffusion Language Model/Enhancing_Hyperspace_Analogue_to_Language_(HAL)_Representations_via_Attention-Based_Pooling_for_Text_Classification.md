@@ -80,7 +80,7 @@ $$\alpha_i = \frac{\exp(e_i / \tau)}{\sum_j \exp(e_j / \tau)}$$
 
 - 最终句子表示为加权和：$s = \sum_i \alpha_i h_i$
 
-![整体架构图|600](images/2603.20149_fig1.png)
+![准确率对比|600](images/accuracy_comparison.png)
 
 ---
 
@@ -122,7 +122,7 @@ $$\alpha_i = \frac{\exp(e_i / \tau)}{\sum_j \exp(e_j / \tau)}$$
 
 3. **温度缩放的作用**：可学习的温度参数使模型能自适应调整注意力分布的集中程度，在过度集中和过度分散之间找到最优平衡
 
-![注意力权重可视化|600](images/2603.20149_fig2.png)
+![准确率对比图](images/accuracy_comparison.png)
 
 ---
 
