@@ -1,0 +1,70 @@
+language: "zh"
+
+vault_path: "/root/ObsidianVault"
+papers_dir: "20_Research/Papers"
+
+research_domains:
+  "Diffusion Language Model":
+    keywords:
+      - "diffusion language model"
+      - "discrete diffusion"
+      - "text diffusion"
+      - "diffusion LLM"
+      - "masked diffusion"
+      - "score-based language"
+      - "non-autoregressive"
+      - "denoising diffusion"
+      - "continuous diffusion"
+      - "flow matching language"
+    arxiv_categories:
+      - "cs.CL"
+      - "cs.LG"
+      - "cs.AI"
+    priority: 5
+
+  "Long Context":
+    keywords:
+      - "long context"
+      - "long sequence"
+      - "context window"
+      - "context extension"
+      - "long-range dependency"
+      - "efficient attention"
+      - "sparse attention"
+      - "linear attention"
+      - "context compression"
+      - "retrieval augmented"
+      - "infinite context"
+      - "rope scaling"
+      - "position extrapolation"
+    arxiv_categories:
+      - "cs.CL"
+      - "cs.LG"
+      - "cs.AI"
+    priority: 5
+
+  "Agent Memory":
+    keywords:
+      - "agent memory"
+      - "memory augmented agent"
+      - "episodic memory"
+      - "long-term memory"
+      - "memory retrieval"
+      - "memory mechanism"
+      - "working memory"
+      - "experience replay"
+      - "reflection agent"
+      - "memory architecture"
+    arxiv_categories:
+      - "cs.AI"
+      - "cs.CL"
+      - "cs.MA"
+    priority: 5
+
+excluded_keywords:
+  - "3D"
+  - "review"
+  - "workshop"
+  - "survey"
+  - "medical"
+  - "clinical"
